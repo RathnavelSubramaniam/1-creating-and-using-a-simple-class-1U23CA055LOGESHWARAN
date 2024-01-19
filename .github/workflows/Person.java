@@ -13,7 +13,7 @@ public class Person {
         age = a;
     }
      String FullName() {
-        return firstName + "  " + lastName;
+        return firstName + " " + lastName;
     }
 
     public static void main(String[] args) {
@@ -22,6 +22,6 @@ public class Person {
         System.out.println("Person 1:" + person1.FullName() );
         System.out.println("Person 2:" + person2.FullName() );
         double averageAge = (person1.age + person2.age) / 2.0;
-        System.out.println("Average Age: " + averageAge);
+        System.out.println("Average Age:" + averageAge);
     }
 }
